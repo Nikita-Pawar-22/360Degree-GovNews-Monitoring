@@ -6,6 +6,7 @@ A comprehensive AI-powered platform for automated crawling, categorization, and 
 
 This project is a **Smart News Monitoring & Feedback System** developed for the **Smart India Hackathon (SIH) 2023** (Problem Statement #1329). It addresses the Government of India's need to monitor news stories across regional media in real-time using AI and Machine Learning.
 
+
 ## 👥 Team Members
 - Parth Mahajan
 - Swarup Patil
