@@ -1,0 +1,97 @@
+/* Keyframe animation for title pop-up effect */
+@keyframes titlePopUp {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.about-page {
+  padding: 40px;
+  background-color: #ffffff; /* White background color */
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title-wrapper {
+  position: relative;
+  text-align: center;
+}
+
+.gif-image {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.about-title {
+  font-size: 48px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  animation: titlePopUp 1s ease-out; /* Apply pop-up animation */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+.about-title .highlight {
+  color: #ff4e00; /* Orange color for highlighting */
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.section-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.image-wrapper {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.news-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.news-image:hover {
+  transform: scale(1.03);
+}
+
+.text-wrapper {
+  flex: 2;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.last-section {
+  text-align: center;
+  background-color: rgba(0, 123, 255, 0.7); /* Blue background color with 70% opacity */
+  padding: 20px; /* Add padding */
+  border-radius: 10px; /* Add rounded corners */
+  font-size: 20px; /* Increase font size */
+  color: #fff; /* Text color */
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 2px; /* Add letter spacing */
+}

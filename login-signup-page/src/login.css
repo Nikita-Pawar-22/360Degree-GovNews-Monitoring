@@ -1,0 +1,109 @@
+/* LoginPage.css */
+
+/* Apply styles to the login page container */
+.login-page {
+  background-image: url('C:\DBMS_Course_Project\login-signup-page\src\login.avif');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Apply styles to the login/signup box */
+.login-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Apply styles to the login/signup title section */
+.login-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-title h1 {
+  margin: 0;
+  padding: 20px 40px; /* Increase padding for more prominence */
+  background-color: #007bff; /* Change background color to a professional blue */
+  color: #fff;
+  border-radius: 20px;
+  font-size: 36px; /* Increase font size for emphasis */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add subtle shadow effect */
+  animation: fadeIn 1s ease-in-out; /* Apply fade-in animation */
+}
+
+/* Define fade-in animation */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+/* Apply styles to the login table and its elements */
+.login-table {
+  width: 100%;
+}
+
+.login-table tr {
+  margin-bottom: 20px;
+}
+
+.login-table td {
+  padding-bottom: 10px;
+}
+
+.login-table label {
+  display: inline-block;
+  width: 120px;
+  font-weight: bold;
+}
+
+.login-table input {
+  width: calc(100% - 120px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.login-table input:focus {
+  border-color: #007bff;
+}
+
+/* Apply styles to the form footer */
+.form-footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-footer button {
+  padding: 12px 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-footer button:hover {
+  background-color: #0056b3;
+}
+
+.form-footer span {
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+}

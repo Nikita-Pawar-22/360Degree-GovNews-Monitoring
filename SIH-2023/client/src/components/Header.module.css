@@ -1,0 +1,30 @@
+/* Header.module.css */
+
+.animated-title {
+  display: inline-flex;
+  align-items: center;
+}
+
+.animated-title span:first-child {
+  margin-right: 10px;
+  font-size: 40px; /* Increased font size for "News" */
+  font-weight: 700; /* Bold font weight */
+  color: #ffffff; /* White text color */
+  font-family: 'Poppins', sans-serif; /* Modern sans-serif font */
+  text-transform: uppercase; /* Convert text to uppercase */
+}
+
+.animated-title span:last-child {
+  font-size: 44px; /* Increased font size for "Analysis" */
+  font-weight: 800; /* Extra bold font weight */
+  color: #4a5568; /* Gray color for "Analysis" */
+  background-image: linear-gradient(to right, #2d3748, #4a5568); /* Gradient background */
+  -webkit-background-clip: text; /* Clip text to the background */
+  background-clip: text; /* Clip text to the background */
+  -webkit-text-fill-color: transparent; /* Hide text color to show gradient */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for hover effect */
+}
+
+.animated-title:hover span:last-child {
+  transform: scale(1.05); /* Scale title on hover */
+}

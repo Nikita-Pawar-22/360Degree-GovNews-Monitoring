@@ -1,0 +1,111 @@
+# Top-level .gitignore for DBMS_Course_Project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+.next/
+out/
+dist/
+build/
+.vite/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+.python-version
+
+# Django
+*.sqlite3
+local_settings.py
+media/
+uploads/
+staticfiles/
+collectstatic/
+*.log
+
+# Databases, caches
+*.db
+*.sqlite
+*.sqlite3
+redis/*.rdb
+
+# ML models & large data
+models/
+model_weights/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.npy
+*.npz
+data/
+data_raw/
+datasets/
+*.tar.gz
+*.zip
+*.gz
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+*.ipynb_checkpoints/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.sublime-project
+*.sublime-workspace
+
+# Docker / deployment
+docker-compose.override.yml
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.Dockerfile.swp
+
+# Logs / coverage
+logs/
+coverage/
+coverage.xml
+*.log
+
+# Misc
+.gitattributes
+*.pem
+*.key
+*.crt
+
+# Feedback-backend specific
+/feedback-form/feedback-backend/node_modules/
+/feedback-form/feedback-backend/.env
+
+# Other common subprojects
+/SIH-2023/client/node_modules/
+/SIH-2023/client/.next/
+/SIH-2023/server/.venv/
+/SIH-2023/server/*.sqlite3
+/about/node_modules/
+/login-signup-page/node_modules/
+
+# Git LFS note (uncomment when using LFS)
+# .gitattributes
